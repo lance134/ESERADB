@@ -15,7 +15,7 @@ class OrderItem extends Model
     // Specify the fillable attributes
     protected $fillable = [
         'order_id', // Foreign key referencing the orders table
-        'menu_item_id', // Foreign key referencing the menu_items table
+        'item_id', // Foreign key referencing the menu_items table
         'quantity',
         'price', // Price at the time of order
     ];

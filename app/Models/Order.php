@@ -15,8 +15,9 @@ class Order extends Model
     // Specify the fillable attributes
     protected $fillable = [
         'user_id', // Assuming you have a user associated with the order
-        'total_price',
+        'total_amount',
         'status', // e.g., pending, completed, canceled
+        'service_type',
         'created_at',
         'updated_at',
     ];
